@@ -24,14 +24,21 @@ py.init_notebook_mode(connected=True)
 # Code
 
 # number of codons in the DNA
-num_cod = 100
+num_cod = 10
+
+# number of time steps
+num_tsteps = 7
+
+# number of repeats
+num_reps = 3
 
 # the mutation rates between codonds.
 # note: AC means from C to A
-rts = {'AC': 1, 'AG': 1, 'AT': 1,
-       'CA': 1, 'CG': 1, 'CT': 1,
-       'GA': 1, 'GC': 1, 'GT': 1,
-       'TA': 1, 'TC': 1, 'TG': 1}
+rts = {         'AC': 1, 'AG': 1, 'AT': 1,
+       'CA': 1,          'CG': 1, 'CT': 1,
+       'GA': 1, 'GC': 1,          'GT': 1,
+       'TA': 1, 'TC': 1, 'TG': 1
+      }
 
 
 def diagRate(*rates):
@@ -48,6 +55,13 @@ codon_om = np.array([[rts['AA'], rts['AC'], rts['AG'], rts['AT']],
                      [rts['GA'], rts['GC'], rts['GG'], rts['GT']],
                      [rts['TA'], rts['TC'], rts['TG'], rts['TT']]])
 
-# DNA state array
+# DNA initial state
+init_dna = np.random.randint(0, high=4, size=num_cod)
+
+# DNA state array matrix.
+# column is dna state at time t. rows time evolve
 # A=0, C=1, G=2, T=3
-dna = np.array([0] * num_cod)
+dna = np.zeros((num_cod, num_tsteps, num_reps))
+dna[:, 0, :] = np.array([init_dna, ] * 3).T  # init_dna into state
+
+print(dna)
