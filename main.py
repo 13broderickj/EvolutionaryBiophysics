@@ -65,3 +65,17 @@ dna = np.zeros((num_cod, num_tsteps, num_reps))
 dna[:, 0, :] = np.array([init_dna, ] * 3).T  # init_dna into state
 
 print(dna)
+
+
+def timeEvolve(current_codon):
+    pass
+    # split up
+
+# TODO vectorize in a more pythonic way
+for i in range(num_reps):
+    for j in range(1, num_tsteps):
+        for k in range(num_cod):
+            pass
+
+            # time evolve the dna state using the codon_om
+            # dna[k, j, i] = func(dna[k, j - 1, i])
