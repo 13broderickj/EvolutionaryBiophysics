@@ -13,11 +13,15 @@ import numpy as np
 import pandas as pd
 
 # Plotting
-import plotly.plotly as plotly
-import plotly.offline as py
-import plotly.graph_objs as go
-import plotly.tools as tls
-py.init_notebook_mode(connected=True)
+try:
+    import plotly.plotly as plotly
+except:
+    print('cant import plotly')
+else:
+    import plotly.offline as py
+    import plotly.graph_objs as go
+    import plotly.tools as tls
+    py.init_notebook_mode(connected=True)
 
 
 ##############################################################################
@@ -34,26 +38,26 @@ num_reps = 3
 
 # the mutation rates between codonds.
 # note: AC means from C to A
-rts = {         'AC': 1, 'AG': 1, 'AT': 1,
-       'CA': 1,          'CG': 1, 'CT': 1,
-       'GA': 1, 'GC': 1,          'GT': 1,
-       'TA': 1, 'TC': 1, 'TG': 1
+rts = {          'C2A': 1, 'G2A': 1, 'T2A': 1,
+       'A2C': 1,           'G2C': 1, 'T2C': 1,
+       'A2G': 1, 'C2G': 1,           'T2G': 1,
+       'A2T': 1, 'C2T': 1, 'G2T': 1
       }
 
 
 def diagRate(*rates):
     return - np.sum(rates)
 
-rts['AA'] = diagRate(rts['CA'], rts['GA'], rts['TA'])
-rts['CC'] = diagRate(rts['AC'], rts['GC'], rts['TC'])
-rts['GG'] = diagRate(rts['AG'], rts['CG'], rts['TG'])
-rts['TT'] = diagRate(rts['AT'], rts['CT'], rts['GT'])
+rts['A2A'] = diagRate(rts['A2C'], rts['A2G'], rts['A2T'])
+rts['C2C'] = diagRate(rts['C2A'], rts['C2G'], rts['C2T'])
+rts['G2G'] = diagRate(rts['G2A'], rts['G2C'], rts['G2T'])
+rts['T2T'] = diagRate(rts['T2A'], rts['T2C'], rts['T2G'])
 
 # Codon Omega Matrix
-codon_om = np.array([[rts['AA'], rts['AC'], rts['AG'], rts['AT']],
-                     [rts['CA'], rts['CC'], rts['CG'], rts['CT']],
-                     [rts['GA'], rts['GC'], rts['GG'], rts['GT']],
-                     [rts['TA'], rts['TC'], rts['TG'], rts['TT']]])
+codon_om = np.array([[rts['A2A'], rts['C2A'], rts['G2A'], rts['T2A']],
+                     [rts['A2C'], rts['C2C'], rts['G2C'], rts['T2C']],
+                     [rts['A2G'], rts['C2G'], rts['G2G'], rts['T2G']],
+                     [rts['A2T'], rts['C2T'], rts['G2T'], rts['T2T']]])
 
 # DNA initial state
 init_dna = np.random.randint(0, high=4, size=num_cod)
