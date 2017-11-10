@@ -38,26 +38,26 @@ num_reps = 3
 
 # the mutation rates between codonds.
 # note: AC means from C to A
-rts = {          'C2A': 1, 'G2A': 1, 'T2A': 1,
-       'A2C': 1,           'G2C': 1, 'T2C': 1,
-       'A2G': 1, 'C2G': 1,           'T2G': 1,
-       'A2T': 1, 'C2T': 1, 'G2T': 1
+rts = {          'CtoA': 1, 'GtoA': 1, 'TtoA': 1,
+       'AtoC': 1,           'GtoC': 1, 'TtoC': 1,
+       'AtoG': 1, 'CtoG': 1,           'TtoG': 1,
+       'AtoT': 1, 'CtoT': 1, 'GtoT': 1
       }
 
 
 def diagRate(*rates):
     return - np.sum(rates)
 
-rts['A2A'] = diagRate(rts['A2C'], rts['A2G'], rts['A2T'])
-rts['C2C'] = diagRate(rts['C2A'], rts['C2G'], rts['C2T'])
-rts['G2G'] = diagRate(rts['G2A'], rts['G2C'], rts['G2T'])
-rts['T2T'] = diagRate(rts['T2A'], rts['T2C'], rts['T2G'])
+rts['AtoA'] = diagRate(rts['AtoC'], rts['AtoG'], rts['AtoT'])
+rts['CtoC'] = diagRate(rts['CtoA'], rts['CtoG'], rts['CtoT'])
+rts['GtoG'] = diagRate(rts['GtoA'], rts['GtoC'], rts['GtoT'])
+rts['TtoT'] = diagRate(rts['TtoA'], rts['TtoC'], rts['TtoG'])
 
 # Codon Omega Matrix
-codon_om = np.array([[rts['A2A'], rts['C2A'], rts['G2A'], rts['T2A']],
-                     [rts['A2C'], rts['C2C'], rts['G2C'], rts['T2C']],
-                     [rts['A2G'], rts['C2G'], rts['G2G'], rts['T2G']],
-                     [rts['A2T'], rts['C2T'], rts['G2T'], rts['T2T']]])
+codon_om = np.array([[rts['AtoA'], rts['CtoA'], rts['GtoA'], rts['TtoA']],
+                     [rts['AtoC'], rts['CtoC'], rts['GtoC'], rts['TtoC']],
+                     [rts['AtoG'], rts['CtoG'], rts['GtoG'], rts['TtoG']],
+                     [rts['AtoT'], rts['CtoT'], rts['GtoT'], rts['TtoT']]])
 
 # DNA initial state
 init_dna = np.random.randint(0, high=4, size=num_cod)
@@ -71,7 +71,8 @@ dna[:, 0, :] = np.array([init_dna, ] * 3).T  # init_dna into state
 print(dna)
 
 
-def timeEvolve(current_codon):
+def reproduce(current_codon):
+    """reproduce the DNA and mutate if necessary."""
     pass
     # split up
 
