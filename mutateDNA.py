@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 
 # Docstring
-"""Main Initializatino File
+"""
+
+NOTE: DO NOT RUN THIS FILE
+
+
 Problem set about evolution from a Biophysics perspective.
 """
 
