@@ -44,10 +44,21 @@ for i, sim in enumerate(similarity):
     trace = go.Scatter(
         name='trial {}'.format(i),
         x=x,
-        # y=np.convolve(sim, np.array([1] * 3) / 3, 'valid'),  # smoother
-        y=sim
+        y=sim,  # y=np.convolve(sim, np.array([1] * 3) / 3, 'valid'),  # smoother
+        opacity=.1,
+        marker={'color': 'gray'},
+        hoverinfo='none'
     )
     data.append(trace)
+
+trace = go.Scatter(
+    name='average',
+    x=x,
+    y=np.average(similarity, axis=0),
+    opacity=1,
+    marker={'symbol': 'dash', 'color': 'black'},
+)
+data.append(trace)
 
 layout = {
     'title': 'self similarity',
@@ -59,6 +70,7 @@ layout = {
                          'x1': x[-1], 'y1': .25,
          'line': {'color': 'k', 'width': 2, 'dash': 'dash'}},
     ],
+    'showlegend': False,
 }
 
 fig = go.Figure(data=data, layout=layout)
@@ -67,7 +79,22 @@ py.plot(fig, filename='Images/self-similarity.html', auto_open=True)
 py.iplot(fig)
 
 
-# Self similarity
+# Distributions
+# -----------------------------
+data = []
+for ts in np.logspace(0, np.log10(num_tsteps - 1), 15, dtype=np.int):
+    # sim = np.convolve(similarity[:, ts], np.array([1] * 3) / 3, 'valid')
+    trace = go.Histogram(name=ts, x=similarity[:, ts], opacity=.5)
+    data.append(trace)
+
+layout = go.Layout(barmode='overlay',
+                   xaxis={'autorange': 'reversed'})
+fig = go.Figure(data=data, layout=layout)
+
+py.plot(fig, filename='Images/distributions.html', auto_open=True)
+
+
+# Sigma Spread
 # -----------------------------
 data = []
 for ts in np.logspace(0, np.log10(num_tsteps - 1), 15, dtype=np.int):
@@ -80,4 +107,4 @@ for ts in np.logspace(0, np.log10(num_tsteps - 1), 15, dtype=np.int):
 layout = go.Layout(barmode='overlay')
 fig = go.Figure(data=data, layout=layout)
 
-py.plot(fig, filename='Images/overlaid_histogram.html', auto_open=True)
+py.plot(fig, filename='Images/sigma_spread.html', auto_open=True)
