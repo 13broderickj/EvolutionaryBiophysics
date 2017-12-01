@@ -76,6 +76,7 @@ init_dna = myran.randint(0, high=4, size=num_bases)
 # column is dna state at time t. rows time evolve
 # A=0, C=1, G=2, T=3
 
+# NOTE would be better to do in opposite order & specify column-wise storage
 similarity = np.zeros((num_trials, num_tsteps))
 
 for trial in range(num_trials):
@@ -91,7 +92,7 @@ for trial in range(num_trials):
     # Save Row as time step, Column as codon
     np.save('IO/DNA{}'.format(trial), DNA)
 
-np.savetxt('IO/similarity.txt'.format(trial), similarity, delimiter=" ", fmt="%s")
+np.save('IO/similarity', similarity)
 
 with open('IO/run_info.pickle', 'wb') as output_file:
     pickle.dump((init_dna, num_trials, num_tsteps, num_bases), output_file, protocol=0)
