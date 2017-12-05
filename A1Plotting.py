@@ -11,8 +11,10 @@ Problem set about evolution from a Biophysics perspective.
 
 import numpy as np
 import pickle
+from scipy.stats import gaussian_kde
 
 # Plotting
+# import matplotlib.pyplot as plt
 try:
     import plotly.plotly as plotly
 except:

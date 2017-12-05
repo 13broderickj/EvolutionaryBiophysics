@@ -27,8 +27,8 @@ def gauss(x, mu, sigma, A):
 
 coeffs = [[1., 0, 1.],
           [1., 0, 1.]]
-covars = [0, 0, ]
-bin_centers = [0, 0]
+covars = []
+bin_centers = []
 
 # NOTE it starts at 2
 for sim in np.nditer(similarity[:, 2:], flags=['external_loop'], order='F'):
@@ -45,7 +45,16 @@ for sim in np.nditer(similarity[:, 2:], flags=['external_loop'], order='F'):
     covars.append(pcov)
     bin_centers.append(bin_cents)
 
-    print(popt[0], end=', ')
+    # print(popt[0], end=', ')
+
+coeffs = np.array(coeffs)
+
+covars = np.array(covars)
+covars = np.insert(covars, 0, np.zeros_like(covars[:2, :]), axis=0)
+
+bin_centers = np.array(bin_centers)
+bin_centers = np.insert(bin_centers, 0, np.zeros_like(bin_centers[:2, :]), axis=0)
+# bin_centers = np.array(bin_centers)
 
 
 with open('IO/gaussianfits.pickle', 'wb') as output_file:
