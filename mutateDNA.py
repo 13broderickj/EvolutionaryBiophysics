@@ -47,10 +47,14 @@ beta = 4 * alpha  # transversion rate
 [ A->G, C->G, G->G, T->G ]
 [ A->T, C->T, G->T, T->T ]
 """
-prob_matrix = np.array([[1 - 2 * alpha - beta, alpha, beta, alpha],
-                        [alpha, 1 - 2 * alpha - beta, alpha, beta],
-                        [beta, alpha, 1 - 2 * alpha - beta, alpha],
-                        [alpha, beta, alpha, 1 - 2 * alpha - beta]])
+# prob_matrix = np.array([[1 - 2 * alpha - beta, alpha, beta, alpha],
+#                         [alpha, 1 - 2 * alpha - beta, alpha, beta],
+#                         [beta, alpha, 1 - 2 * alpha - beta, alpha],
+#                         [alpha, beta, alpha, 1 - 2 * alpha - beta]])
+prob_matrix = np.array([[1 - 3 * alpha, alpha, alpha, alpha],
+                        [alpha, 1 - 3 * alpha, alpha, alpha],
+                        [alpha, alpha, 1 - 3 * alpha, alpha],
+                        [alpha, alpha, alpha, 1 - 3 * alpha]])
 
 prob_vec = [np.cumsum(prob_matrix[:, base]) for base in range(4)]
 

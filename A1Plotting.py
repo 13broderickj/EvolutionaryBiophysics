@@ -33,8 +33,8 @@ else:
 with open('IO/run_info.pickle', 'rb') as file:
     init_dna, num_trials, num_tsteps, num_bases = pickle.load(file)
 
-similarity = np.loadtxt('IO/similarity.txt')
-# similarity = np.load('IO/similarity')
+# similarity = np.loadtxt('IO/similarity.txt')
+similarity = np.load('IO/similarity.npy')
 
 
 # Self similarity
@@ -45,7 +45,7 @@ for i, sim in enumerate(similarity):
     trace = go.Scatter(
         name='trial {}'.format(i),
         x=x,
-        y=sim,  # y=np.convolve(sim, np.array([1] * 3) / 3, 'valid'),  # smoother
+        y=np.convolve(sim, np.array([1] * 3) / 3, 'valid'),  # smoother
         opacity=.1,
         marker={'color': 'gray'},
         hoverinfo='none'
