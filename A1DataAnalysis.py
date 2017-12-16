@@ -10,8 +10,21 @@ Problem set about evolution from a Biophysics perspective.
 # Importing Modules
 
 import numpy as np
-import pickle
+# import pickle
 from scipy.optimize import curve_fit
+
+# Plotting
+try:
+    import plotly.plotly as plotly
+except:
+    print('cant import plotly')
+else:
+    import plotly.offline as py
+    import plotly.graph_objs as go
+    import plotly.tools as tls
+    import plotly.figure_factory as ff
+
+    py.init_notebook_mode(connected=True)
 
 # ##############################################################################
 # # Code
@@ -30,10 +43,13 @@ coeffs = [[1., 0, 1.],
 covars = []
 bin_centers = []
 
+# std = np.zeros(np.shape(similarity)[0])
+std = [0] * 5
+
 # NOTE it starts at 2
 for sim in np.nditer(similarity[:, 5:], flags=['external_loop'], order='F'):
 
-    print(np.std(sim))
+    std.append(np.std(sim))
 
     # hist, bin_edges = np.histogram(sim, density=True)
     # bin_cents = (bin_edges[:-1] + bin_edges[1:]) / 2
@@ -48,6 +64,56 @@ for sim in np.nditer(similarity[:, 5:], flags=['external_loop'], order='F'):
     # bin_centers.append(bin_cents)
 
     # print(popt[0], end=', ')
+
+
+# Self similarity
+# -----------------------------
+x = np.arange(0, len(std))
+
+trace = go.Scatter(
+    name='shit',
+    x=x,
+    y=std,
+    opacity=1,
+    marker={'symbol': 'dash', 'color': 'black'},
+)
+data = [trace]
+
+
+def std_fit(x, aon, aoff, kon, koff, b):
+    return aoff * np.exp(-koff * x) * (1 - aon * np.exp(-kon * x)) + b
+
+
+coeffs, _ = curve_fit(std_fit, x, std,
+                      p0=[.9, .05, .02, .05, 0.1])
+print(coeffs)
+bestfit = std_fit(x, *coeffs)
+
+trace = go.Scatter(
+    name='best fit',
+    x=x,
+    y=bestfit,
+    opacity=1,
+    marker={'symbol': 'dash', 'color': 'red'},
+)
+data.append(trace)
+
+layout = {
+    'title': 'standard deviation',
+    'xaxis': {'title': 'time [s]'},
+    'yaxis': {'title': 'std'},
+    'shapes': [
+        # Line Horizontal
+        {'type': 'line', 'x0': 0, 'y0': .05,
+                         'x1': x[-1], 'y1': .05,
+         'line': {'color': 'k', 'width': 2, 'dash': 'dash'}},
+    ],
+    'showlegend': False,
+}
+
+fig = go.Figure(data=data, layout=layout)
+
+py.plot(fig, filename='Images/standard_deviation.html', auto_open=True)
 
 # coeffs = np.array(coeffs)
 
