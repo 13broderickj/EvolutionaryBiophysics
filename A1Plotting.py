@@ -13,8 +13,9 @@ import numpy as np
 import pickle
 from scipy.stats import gaussian_kde
 
+import scipy.optimize as opt
+
 # Plotting
-# import matplotlib.pyplot as plt
 try:
     import plotly.plotly as plotly
 except:
@@ -23,6 +24,7 @@ else:
     import plotly.offline as py
     import plotly.graph_objs as go
     import plotly.tools as tls
+    import plotly.figure_factory as ff
 
     py.init_notebook_mode(connected=True)
 
@@ -45,7 +47,7 @@ for i, sim in enumerate(similarity):
     trace = go.Scatter(
         name='trial {}'.format(i),
         x=x,
-        y=np.convolve(sim, np.array([1] * 3) / 3, 'valid'),  # smoother
+        y=sim,  # smoother
         opacity=.1,
         marker={'color': 'gray'},
         hoverinfo='none'
@@ -58,6 +60,25 @@ trace = go.Scatter(
     y=np.average(similarity, axis=0),
     opacity=1,
     marker={'symbol': 'dash', 'color': 'black'},
+)
+data.append(trace)
+
+
+def sim_func(x, a, x0, k):
+    return np.add(x0, np.multiply(a, np.exp(np.multiply(-k, x))))
+
+
+coeffs, _ = opt.curve_fit(sim_func, x[2:], np.average(similarity, axis=0)[2:],
+                          p0=[1, 1, .004])
+print(coeffs)
+bestfit = sim_func(x, *coeffs)
+
+trace = go.Scatter(
+    name='best fit',
+    x=x,
+    y=bestfit,
+    opacity=1,
+    marker={'symbol': 'dash', 'color': 'red'},
 )
 data.append(trace)
 
