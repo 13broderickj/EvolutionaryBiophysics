@@ -1,0 +1,1335 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"zer",
+				"zeros_like\tfunction"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"bin",
+				"bin_centers"
+			],
+			[
+				"ga",
+				"gaussianDistribution"
+			],
+			[
+				"ar",
+				"array\t(mutateDNA.py)"
+			],
+			[
+				"hi",
+				"hist_fit"
+			],
+			[
+				"sim",
+				"similarity"
+			],
+			[
+				"var",
+				"var_matrix"
+			],
+			[
+				"ya",
+				"yaxis\t(A1Plotting.py)"
+			],
+			[
+				"prob",
+				"probability"
+			],
+			[
+				"red",
+				"redshift"
+			],
+			[
+				"make",
+				"makePlots"
+			],
+			[
+				"al",
+				"alpha\tstatement"
+			],
+			[
+				"myra",
+				"myran"
+			],
+			[
+				"s",
+				"similarity"
+			],
+			[
+				"load",
+				"loadtxt\tfunction"
+			],
+			[
+				"ERR",
+				"ERR_R"
+			],
+			[
+				"chd",
+				"chd_renames"
+			],
+			[
+				"name",
+				"name_change"
+			],
+			[
+				"SD",
+				"SDSS_renames"
+			],
+			[
+				"deg",
+				"degree"
+			],
+			[
+				"num",
+				"num_bases"
+			],
+			[
+				"num_",
+				"num_tsteps"
+			],
+			[
+				"mut",
+				"mutation_matrix"
+			],
+			[
+				"pi",
+				"pick_mutation"
+			],
+			[
+				"fu",
+				"functions\tmodule"
+			],
+			[
+				"pro",
+				"protocol\tparam"
+			],
+			[
+				"fi",
+				"file"
+			],
+			[
+				"va",
+				"vary"
+			],
+			[
+				"M2L",
+				"M2Lb"
+			],
+			[
+				"M2",
+				"M2Lb"
+			],
+			[
+				"gal",
+				"galx"
+			],
+			[
+				"proper",
+				"property\tclass"
+			],
+			[
+				"__mo",
+				"__module__"
+			],
+			[
+				"od",
+				"odict_items"
+			],
+			[
+				"aka",
+				"akakeys\tfunction"
+			],
+			[
+				"Or",
+				"OrderedDict"
+			],
+			[
+				"pr",
+				"props"
+			],
+			[
+				"tra",
+				"trace"
+			],
+			[
+				"eif",
+				"elif"
+			],
+			[
+				"cri",
+				"criteria"
+			],
+			[
+				"save",
+				"save_pickle"
+			],
+			[
+				"print",
+				"print_status"
+			],
+			[
+				"pa",
+				"paths"
+			],
+			[
+				"prin",
+				"print_status\t(IO.py)"
+			],
+			[
+				"Dat",
+				"DataFrame"
+			],
+			[
+				"onl",
+				"onlyTrues"
+			],
+			[
+				"on",
+				"onlyTrues"
+			],
+			[
+				"bool",
+				"bool\tclass"
+			],
+			[
+				"sa",
+				"save_pickle"
+			],
+			[
+				"sav",
+				"save_pickle"
+			],
+			[
+				"path",
+				"pathbase"
+			],
+			[
+				"Tr",
+				"True"
+			],
+			[
+				"res",
+				"resid"
+			],
+			[
+				"iter",
+				"iter_cb"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"do",
+				"do_fit_args"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"to",
+				"to_pickle\tfunction"
+			],
+			[
+				"ID",
+				"IDs"
+			],
+			[
+				"m",
+				"methods"
+			],
+			[
+				"pri",
+				"print_status"
+			],
+			[
+				"ite",
+				"items\t(Store.py)"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"app",
+				"apply_criteria"
+			],
+			[
+				"pah",
+				"paths"
+			],
+			[
+				"RC",
+				"RCf"
+			],
+			[
+				"fr",
+				"from_pickle"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"RCc",
+				"RCc"
+			],
+			[
+				"GS",
+				"GSpath"
+			],
+			[
+				"err",
+				"errorfill\tfunction"
+			],
+			[
+				"resi",
+				"resid"
+			],
+			[
+				"wg",
+				"wgt_kws\tparam"
+			],
+			[
+				"mak",
+				"make_select_view\tfunction"
+			],
+			[
+				"fid",
+				"fiducial"
+			],
+			[
+				"pk",
+				"pk_ind"
+			],
+			[
+				"Fil",
+				"FileNotFoundError"
+			],
+			[
+				"ap",
+				"aply_crit"
+			],
+			[
+				"RCf",
+				"RCfpath"
+			],
+			[
+				"full",
+				"full_output"
+			],
+			[
+				"ful",
+				"full_output"
+			],
+			[
+				"Ex",
+				"ExpDisk2D\t(GalaxyClass.py)"
+			],
+			[
+				"log",
+				"logic"
+			],
+			[
+				"con",
+				"Convert\tmodule"
+			],
+			[
+				"rad",
+				"radians\tinstance"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"Typ",
+				"TypeError\tclass"
+			],
+			[
+				"el",
+				"elif\t(GalaxyClass.py)"
+			],
+			[
+				"raid",
+				"radians\t(GalaxyClass.py)"
+			],
+			[
+				"e_",
+				"e_Vbul\t(GalaxyClass.py)"
+			],
+			[
+				"Key",
+				"KeyError\tclass"
+			],
+			[
+				"e_Vp",
+				"e_Vp_g"
+			],
+			[
+				"sta",
+				"staticmethod\tclass"
+			],
+			[
+				"SBb",
+				"SBbul"
+			],
+			[
+				"SB",
+				"SBdisk"
+			],
+			[
+				"R",
+				"RCf"
+			],
+			[
+				"se",
+				"self\tparam"
+			],
+			[
+				"ge",
+				"get_loc"
+			],
+			[
+				"Vb",
+				"Vbul"
+			],
+			[
+				"std",
+				"stderr"
+			],
+			[
+				"ma",
+				"make_select_view\tfunction"
+			],
+			[
+				"metho",
+				"method"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"_co",
+				"_correct_gal_inclination"
+			],
+			[
+				"incl",
+				"inclination"
+			],
+			[
+				"ab",
+				"absolute\tinstance"
+			],
+			[
+				"f",
+				"format\tfunction"
+			],
+			[
+				"del",
+				"delimiter"
+			],
+			[
+				"Va",
+				"ValueError\tclass"
+			],
+			[
+				"l",
+				"loc"
+			],
+			[
+				"imag",
+				"image\t(Initialization.py)"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"cm",
+				"cmap"
+			],
+			[
+				"ke",
+				"keys\t(Store.py)"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"set",
+				"set_index"
+			],
+			[
+				"_M",
+				"_M2L_affected_funcs\tfunction"
+			],
+			[
+				"i",
+				"ind_RC"
+			],
+			[
+				"use",
+				"useIDs"
+			],
+			[
+				"cr",
+				"crit"
+			],
+			[
+				"in",
+				"ind_GS"
+			],
+			[
+				"Vp",
+				"Vp_g"
+			],
+			[
+				"ind",
+				"ind_RC"
+			],
+			[
+				"ins",
+				"insert"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"it",
+				"itnum"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "A1DataAnalysis.py",
+			"settings":
+			{
+				"buffer_size": 1686,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "TestArea.py",
+			"settings":
+			{
+				"buffer_size": 2266,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "A1Plotting.py",
+			"settings":
+			{
+				"buffer_size": 4352,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mutateDNA.py",
+			"settings":
+			{
+				"buffer_size": 3257,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Traditional"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/LaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Basic Builder - LuaLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python 3/Python3.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "packag",
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"commen",
+				"Toggle Block Comment"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"enag",
+				"Package Control: Enable Package"
+			],
+			[
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"latext",
+				"LaTeXTools: Reset user settings to default"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"python ",
+				"Set Syntax: Python3"
+			]
+		],
+		"width": 554.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics"
+	],
+	"file_history":
+	[
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 7/Astr 306/AGN/AGNPaperLatex/main.tex",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 7/Astr 306/M101 Paper/M101PaperLatex/main.tex",
+		"/Users/NathanielS/anaconda/lib/python3.5/site-packages/scipy/optimize/minpack.py",
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics/mutateDNA.py",
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics/A1DataAnalysis.py",
+		"/Users/NathanielS/Documents/GitHub/Astro306-AGN/SDSSReadIn.py",
+		"/Users/NathanielS/Documents/GitHub/Astro306-AGN/makePlots.py",
+		"/Users/NathanielS/Documents/GitHub/Astro306-AGN/main.py",
+		"/Users/NathanielS/anaconda/lib/python3.5/site-packages/astropy/units/decorators.py",
+		"/Users/NathanielS/anaconda/lib/python3.5/site-packages/astropy/utils/decorators.py",
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics/plotting.py",
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics/test",
+		"/Users/NathanielS/anaconda/lib/python3.5/site-packages/plotly/api/v2/utils.py",
+		"/Users/NathanielS/Documents/GitHub/Astro306-AGN/A2065CxS.txt",
+		"/Users/NathanielS/Documents/GitHub/Astro306-AGN/A2065CxS",
+		"/Users/NathanielS/Documents/GitHub/Astro306-AGN/Notes.md",
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics/functions.py",
+		"/Users/NathanielS/Documents/GitHub/EvolutionaryBiophysics/main.py",
+		"/Users/NathanielS/Documents/GitHub/RenzoRule/RenzoRule.sublime-project",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 7/Astr 306/Observing Proposal/Observing Proposal.tex",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 7/Astr 306/TAC Proposal/TAC Proposal.tex",
+		"/Users/NathanielS/Library/Containers/pro.writer.mac/Data/Library/Application Support/iA Writer/Templates/My Style.iatemplate/Contents/Resources/style.css",
+		"/Users/NathanielS/Downloads/Palatino.iatemplate/Contents/Resources/master.js",
+		"/Users/NathanielS/Downloads/mla/MLA Style.iatemplate/Contents/Resources/style.css",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/Simulation_To_Publish/Functions/Fitters.py",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/Simulation/Functions/GalaxyClass.py",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/Simulation/Functions/MaxDisk/Fitting.py",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/Simulation/GS_MRT.mrt",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/Simulation/RC_MRT.mrt",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 7/Astr 306/M101 Paper/Bstdev",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDiskPaper.bbl",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/Section/UnderlyingEquations.tex",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/Section/Program.tex",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/aastex6.cls",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/aastex61.cls",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDisk Paper Outline.pdf",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDisk Paper Outline/UGC02487.png",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDiskPaper.pdf",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDiskPaperDraft.pdf",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/Section/Results.tex",
+		"/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/Section/Summary.tex",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/Section/Acknowledgements.tex",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDiskPaper.log",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/BeautifyLatex/BeautifyLatex.sublime-settings",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/BeautifyLatex/Default (OSX).sublime-keymap",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/User/BeautifyLatex.sublime-settings",
+		"/Users/NathanielS/Documents/GitHub/Maximum Disk/MaxDiskPaper/MaxDiskPaper.aux",
+		"/usr/local/texlive/2016/texmf-dist/tex/latex/titling/titling.sty",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Fitters.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/ordereddict.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/od test.pickle",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/NathanielS/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-build",
+		"/Users/NathanielS/.Trash/DMNotebook.pdf",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/MaxDiskPaper/DMNotebook.toc",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/MaxDisk/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/ParamControl.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/MaxDisk/Fitting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Convert.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/GalaxyClass.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Observed/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Observed/RotationallySupported.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Baryons/ExpDisk2D.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/DarkMatter/NFW.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/DarkMatter/ToRho.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Observed/Atan.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/ToRhoDM.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Baryons/ExpDisk2D.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/DarkMatter/NFW.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/DarkMatter/ToRho.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Fitters.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/GalaxyClass.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Logic.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Observed/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Observed/RotationallySupported.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Store.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/ToRhoDM.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/MaxDisk/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/MaxDisk/Weighting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Observed/Atan.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Observed/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Observed/RotationallySupported.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/Functions/Store.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld/ToRhoDM.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Baryons/ExpDisk2D.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/DarkMatter/NFW.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/DarkMatter/ToRho.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Fitters.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/GalaxyClass.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Logic.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/MaxDisk/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/MaxDisk/Weighting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/SimulationOld2/Functions/Observed/Atan.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Logic.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Initialization.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/IO.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Store.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/TestingArea.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/makeSPARCDataTables.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/MaxDisk.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/MaxDisk/Weighting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/ParamControl/vary.py",
+		"/Users/NathanielS/Desktop/Simulation/Functions/ParamControl/value.py",
+		"/Users/NathanielS/Desktop/Simulation/Functions/ParamControl/vary.py",
+		"/Users/NathanielS/Desktop/Simulation/Functions/Baryons/ExpDisk2D.py",
+		"/Users/NathanielS/Desktop/Simulation/Functions/Store.py",
+		"/Users/NathanielS/Desktop/Simulation/Functions/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/BAOSpheres/TestArea/Uniform Distribution BAOS Constructor copy.py",
+		"/Users/NathanielS/Documents/GitHub/BAOSpheres/Uniform Distribution BAOS Constructor.py",
+		"/Users/NathanielS/Desktop/untitled.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Baryons/General.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/ParamControl/value.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/Plotting/Plotting.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Initialization.py",
+		"/Users/NathanielS/Documents/GitHub/Dark Matter/Simulation/Functions/MaxDisk/PlotFuncs.py",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 4/Sages Physics/Classes/Summary 3:23:16.rtf",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 4/Sages Physics/Classes/Summary 3:30:16.rtf",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 4/Sages Physics/Classes/Summary 2:10:16.txt",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 4/Sages Physics/Classes/Summary 2:10:16.rtf",
+		"/Users/NathanielS/Dropbox/Documents/School/Semester 4/Sages Physics/Classes/Summary 2:15:16.rtf",
+		"/Users/NathanielS/Downloads/demo_gridspec03.py",
+		"/Users/NathanielS/Downloads/demo_gridspec05.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2 * alpha - alpha",
+			"beta",
+			"bin_centers",
+			"coeffs",
+			"1000",
+			"data"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "A1DataAnalysis.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1512406875.76,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 274.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "TestArea.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1769,
+								1769
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1512406875.77,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1411.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "A1Plotting.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1512406875.78,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mutateDNA.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								652
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1512406875.78,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 441.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 314.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.latextools":
+	{
+		"height": 168.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "",
+	"project": "BiophysFinalProject.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Work/School/Semester 6/Astr 311/HW/HW2/ExponentialIntegralPowerSeries.f90"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Work/Research/Dark Matter/Simulation/DM Profile.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 102.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
