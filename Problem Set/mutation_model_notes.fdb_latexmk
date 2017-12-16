@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512500509 "mutation_model_notes.tex" "mutation_model_notes.pdf" "mutation_model_notes" 1512500509
+["pdflatex"] 1512500509 "mutation_model_notes.tex" "mutation_model_notes.pdf" "mutation_model_notes" 1513451602
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -31,8 +31,8 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1487306325 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "mutation_model_notes.aux" 1512500509 542 4c4f9b92684a9b137ab625548f0129c7 ""
-  "mutation_model_notes.tex" 1512434718 5239 aaa33264a781ef91e62926ff791e2eaf ""
+  "mutation_model_notes.aux" 1512701270 542 4c4f9b92684a9b137ab625548f0129c7 ""
+  "mutation_model_notes.tex" 1512701270 5239 aaa33264a781ef91e62926ff791e2eaf ""
   (generated)
   "mutation_model_notes.log"
   "mutation_model_notes.pdf"
