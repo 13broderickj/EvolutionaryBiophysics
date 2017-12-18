@@ -4,9 +4,6 @@
 # Docstring
 """
 
-NOTE: DO NOT RUN THIS FILE
-
-
 Problem set about evolution from a Biophysics perspective.
 """
 
@@ -16,11 +13,17 @@ Problem set about evolution from a Biophysics perspective.
 import numpy as np
 import pickle
 
-import multiprocessing as mp
-from functools import partial
+# import multiprocessing as mp
+# from functools import partial
 
 ##############################################################################
 # Random Seed
+
+# # How to load the random state
+# with open('dna_seed.state', 'rb') as fp:
+#     ranstate = pickle.load(fp)
+#     myran = np.random.RandomState()
+#     myran.set_state(ranstate)
 
 myran = np.random.RandomState()
 with open('dna_seed.state', 'wb') as fp:
@@ -34,10 +37,10 @@ with open('dna_seed.state', 'wb') as fp:
 num_trials = 400
 
 # number of time steps
-num_tsteps = int(5e3)
+num_tsteps = int(2e3)
 
 # number of codons in the DNA
-num_bases = 100
+num_bases = 50
 
 # the mutation rates between codonds.
 # note: AC means from C to A
@@ -79,32 +82,7 @@ mutate = np.vectorize(pickMutation)
 # DNA initial state
 init_dna = myran.randint(0, high=4, size=num_bases)
 
-# DNA state array matrix.
-# column is dna state at time t. rows time evolve
-# A=0, C=1, G=2, T=3
-
-# NOTE would be better to do in opposite order & specify column-wise storage
 similarity = np.zeros((num_trials, num_tsteps))
-
-# def f(trial, similarity, init_dna, num_tsteps, num_bases, save=True):
-#     print(trial)
-#     DNA = np.zeros((num_tsteps, num_bases), dtype=np.int)
-#     DNA[0, :] = np.array([init_dna])  # init_dna into state
-
-#     for ts in range(1, num_tsteps):
-#         DNA[ts, :] = mutate(DNA[ts - 1, :])
-
-#         similarity[trial, ts] = (num_bases - np.count_nonzero(DNA[ts, :] - init_dna)) / num_bases
-
-#     # Save Row as time step, Column as codon
-#     if save is True:
-#         np.save('IO/DNA{}'.format(trial), DNA)
-
-
-# pool = mp.Pool()
-# # p = mp.Proces
-# pool.map(partial(f, init_dna=init_dna, num_tsteps=num_tsteps, num_bases=num_bases, save=False),
-#                  range(num_trials))
 
 for trial in range(num_trials):
     print(trial)
@@ -130,9 +108,3 @@ print('done')
 
 # How to load all the DNA
 # DNA = np.stack((np.loadtxt('IO/DNA{}.txt'.format(trial)) for trial in range(num_trials)), axis=0)
-
-# # How to load the random state
-# with open('dna_seed.state', 'rb') as fp:
-#     ranstate = pickle.load(fp)
-#     myran = np.random.RandomState()
-#     myran.set_state(ranstate)

@@ -84,19 +84,20 @@ def std_fit(x, aon, aoff, kon, koff, b):
     return aoff * np.exp(-koff * x) * (1 - aon * np.exp(-kon * x)) + b
 
 
-coeffs, _ = curve_fit(std_fit, x, std,
-                      p0=[.9, .05, .02, .05, 0.1])
-print(coeffs)
-bestfit = std_fit(x, *coeffs)
+# coeffs, covars = curve_fit(std_fit, x, std,
+#                            p0=[.9, .05, .02, .005, 0.43])
+# print(coeffs)
+# print(covars)
+# bestfit = std_fit(x, *coeffs)
 
-trace = go.Scatter(
-    name='best fit',
-    x=x,
-    y=bestfit,
-    opacity=1,
-    marker={'symbol': 'dash', 'color': 'red'},
-)
-data.append(trace)
+# trace = go.Scatter(
+#     name='best fit',
+#     x=x,
+#     y=bestfit,
+#     opacity=1,
+#     marker={'symbol': 'dash', 'color': 'red'},
+# )
+# data.append(trace)
 
 layout = {
     'title': 'standard deviation',
