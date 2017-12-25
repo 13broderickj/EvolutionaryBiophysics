@@ -34,17 +34,17 @@ with open('dna_seed.state', 'wb') as fp:
 # Code
 
 # number of repeats
-num_trials = 400
+num_trials = int(1e4)
 
 # number of time steps
 num_tsteps = int(2e3)
 
 # number of codons in the DNA
-num_bases = 50
+num_bases = 100
 
 # the mutation rates between codonds.
 # note: AC means from C to A
-alpha = 1e-3      # transition rate
+alpha = 1 / 4      # transition rate
 # beta = 4 * alpha  # transversion rate
 
 """
@@ -76,8 +76,7 @@ def pickMutation(base):
     new_base = base + mutation_matrix[ind, base]
     return new_base
 
-
-mutate = np.vectorize(pickMutation)
+# mutate = np.vectorize(pickMutation)
 
 # DNA initial state
 init_dna = myran.randint(0, high=4, size=num_bases)
@@ -90,7 +89,9 @@ for trial in range(num_trials):
     DNA[0, :] = np.array([init_dna])  # init_dna into state
 
     for ts in range(1, num_tsteps):
-        DNA[ts, :] = mutate(DNA[ts - 1, :])
+        base = myran.randint(0, high=num_bases)
+        DNA[ts, :] = DNA[ts - 1, :]
+        DNA[ts, base] = pickMutation(DNA[ts - 1, base])
 
         similarity[trial, ts] = (num_bases - np.count_nonzero(DNA[ts, :] - init_dna)) / num_bases
 
