@@ -84,8 +84,8 @@ data.append(trace)
 
 layout = {
     'title': 'self similarity',
-    'xaxis': {'title': 'time [s]'},
-    'yaxis': {'title': 'similarity (3 smoothed)'},
+    'xaxis': {'title': 'time steps'},
+    'yaxis': {'title': 'similarity'},
     'shapes': [
         # Line Horizontal
         {'type': 'line', 'x0': 0, 'y0': .25,

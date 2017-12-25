@@ -101,12 +101,12 @@ def std_fit(x, aon, aoff, kon, koff, b):
 
 layout = {
     'title': 'standard deviation',
-    'xaxis': {'title': 'time [s]'},
+    'xaxis': {'title': 'time steps'},
     'yaxis': {'title': 'std'},
     'shapes': [
         # Line Horizontal
-        {'type': 'line', 'x0': 0, 'y0': .05,
-                         'x1': x[-1], 'y1': .05,
+        {'type': 'line', 'x0': 0, 'y0': .043,
+                         'x1': x[-1], 'y1': .043,
          'line': {'color': 'k', 'width': 2, 'dash': 'dash'}},
     ],
     'showlegend': False,
